@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" >
+
+    <LinearLayout
+            android:id="@+id/main_1"
+            android:layout_width="fill_parent"
+            android:layout_height="235px"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:orientation="horizontal" />
+
+        
+    <LinearLayout
+        android:id="@+id/main_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/restart"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:text="Restart" />
+
+    </LinearLayout>
+    
+</LinearLayout>
